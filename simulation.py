@@ -150,7 +150,7 @@ class Simulation:
         if epoch is None:
             datafile = join(outdir, f'{prefix}checkpoint.pt')
         else:
-            datafile = join(outdir, f'{prefix}checkpoint_epoch{epoch + 1}.pt')
+            datafile = join(outdir, f'{prefix}checkpoint_epoch{epoch}.pt')
 
         if not overwrite and os.path.exists(datafile):
             raise IOError('data file already exists: ' + datafile)
