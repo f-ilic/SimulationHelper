@@ -28,7 +28,6 @@ if __name__ == '__main__':
 
 ### Advanced Features
 
-Saving and Restoring Data
 SimulationHelper simplifies data management by providing methods to save and restore data in various formats. Use save_data to save data and restore_data to load it back into your simulation. For example, to save a model's state in PyTorch:
 
 ```python
